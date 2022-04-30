@@ -4,5 +4,5 @@
 
 Un ejemplo de resolución del ejercicio sería el archivo:
 ```
-hola_mundo.py
+holamundo.py
 ```
