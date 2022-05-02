@@ -140,5 +140,37 @@ import os, json
 
 
 ## Ejercicio: **01_hola_mundo**
-
 Siguiendo los ejemplos anteriores, escribe una **función** que reciba dos números y muestre en una línea el texto **"Hola Mundo"** y en la siguiente el **resultado de la suma de ambos números**. Intenta seguir las recomendaciones de estilos del **PEP8**.
+
+## Estructura y formato de un programa Python
+Un ejemplo de programa básico está disponible en:  ```01_ejemplos/programabasico.py```
+
+## El intérprete interactivo de Python
+
+Podemos ejecutar el intérprete interactivo de Python desde un terminal simplemente escribiendo:
+
+```
+python
+```
+
+Si solo tenemos instalada una versión de Python y no estamos usando entornos virtuales de Python (explicaremos qué son los entornos virtuales en futuruas secciones), basta con ejecutar el comando anterior. En caso contrario deberemos especificar por ejemplo la versión de Python que queremos usar para lanzar el intérprete interactivo:
+
+```
+python3
+```
+
+Una vez ejecutado, nos aparecerá una interfaz similar a la siguiente:
+```bash
+PS C:\Users\python\github\python3iniciorapido> python
+Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+En estas primeras líneas veremos la versión de Python que estamos ejecutando. Para salir basta con escribir:
+
+```
+exit()
+```
+
+y pulsar Intro.
